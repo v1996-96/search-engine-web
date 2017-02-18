@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
-export const REMOTE_HOST = 'http://search-engine:8080'
+// export const REMOTE_HOST = 'http://search-engine-api:8080'
+export const REMOTE_HOST = 'http://trushin.styleru.net/search-engine-api'
 
 export const Documents = () => {
   return Vue.resource(REMOTE_HOST + '/document', {}, {
